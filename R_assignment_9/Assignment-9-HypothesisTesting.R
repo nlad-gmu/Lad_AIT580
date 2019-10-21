@@ -2,8 +2,8 @@
 ###Hypothesis Testing
 ###------------------
 
-###Students Name:
-###GNumber:
+###Students Name: Neha Lad
+###GNumber: G01169261
 
 setwd("~/git/AIT580/")
 
