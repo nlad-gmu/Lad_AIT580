@@ -77,7 +77,7 @@ t.test(data$MonthlyIncome[Manager],data$MonthlyIncome[Lab_Tech], alternative="gr
 summary(lm( YearsAtCompany ~ DailyRate, data=data))
 #Result: this two variables are very very slightly corelated 
 # or in other words they are not that correalted as the adjusted R square 
-# value is 0.00047
+# value is 0.00047. Also the p value is greater than 0.05 hence we fail to reject the null hypothesis.
 
 #7. If YearsAtCompany and MonthlyIncome are correlated with each other (5 points)
 
@@ -85,6 +85,8 @@ summary(lm( YearsAtCompany ~ MonthlyIncome, data=data))
 
 #Result: this two variables seems to be correlated with each
 #other as the adjusted R square value is 0.264 i.e. approx 26%
+#also the p value is much much less than 0.05, hence we reject the null hypothesis.
+
 
 #8. If YearsAtCompany varies depending on individual's MaritalStatus (5 points)
 
